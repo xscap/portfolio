@@ -1,0 +1,172 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-radius: 45px;
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4); /* Slightly transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 10px;
+    opacity: 1;
+    color: black;
+    
+}
+
+h2 {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bio,.edu
+ {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #27ae60;
+    color: black;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.projects .project {
+    margin-bottom: 20px;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    font-family: cursive;
+}
+
+.projects .project a.button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #e67e22;
+    color:white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.projects .project a.button:hover {
+    background-color: #d35400;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: black;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+img{
+    width: 130px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+body{
+    background: url("https://i.ytimg.com/vi/FFL1GkpfAic/maxresdefault.jpg") 
+    
+}
+
+
+button{
+    color: yellow;
+    background-color: orangered;
+    border: none;
+   padding: 10px 6px;
+   text-align: center;
+   text-decoration: dotted;
+   display: inline-block;
+   font-size: 10px;
+   border-radius: 22px;
+   transition: background-color 1s ease-out;
+   
+   
+}
+
+button:hover{
+    background-color: green;
+    cursor: pointer;
+    color: black;
+}
+.mail,.number{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    
+
+  }
+  
+  .butto {
+    margin-right: 10px; /* Optional: Add margin between the buttons */
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+   
+   
+  }
+
+.butto:hover{
+    background-color: darkslateblue;
+    color: black;
+}
+
+table{
+    margin: auto; /* This will center-align the table */
+    border-collapse: collapse; /* Optional: To collapse the borders of the table */
+    width: 50%; /* Optional: Set a width for the table */
+    border: 3px solid blue;
+    font-weight: bold;
+}
+th,td{
+    border: 2px solid blue; /* Optional: Add borders to cells */
+            padding: 8px; 
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
