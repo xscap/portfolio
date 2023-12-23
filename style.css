@@ -23,7 +23,7 @@ section {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.4); /* Slightly transparent white background */
+    background-color: rgba(255, 255, 255, 0.4); 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
     border-radius: 10px;
@@ -141,7 +141,7 @@ button:hover{
   }
   
   .butto {
-    margin-right: 10px; /* Optional: Add margin between the buttons */
+    margin-right: 10px; 
     background-color: blue;
     color: white;
     border-radius: 5px;
@@ -157,14 +157,14 @@ button:hover{
 }
 
 table{
-    margin: auto; /* This will center-align the table */
-    border-collapse: collapse; /* Optional: To collapse the borders of the table */
-    width: 50%; /* Optional: Set a width for the table */
+    margin: auto; 
+    border-collapse: collapse; 
+    width: 50%; 
     border: 3px solid blue;
     font-weight: bold;
 }
 th,td{
-    border: 2px solid blue; /* Optional: Add borders to cells */
+    border: 2px solid blue; 
             padding: 8px; 
             text-align: center;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
